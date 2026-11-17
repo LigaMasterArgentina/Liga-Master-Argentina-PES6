@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Liga-Master-Argentina-PES6/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
